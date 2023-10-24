@@ -1,11 +1,11 @@
 <html>
 	<head>	
-			<title>CalCulatorApp</title>
+			<title>Afro-Instititute-CalCulatorApp</title>
 	</head>
 <body>
 <h2>Calculator</h2>
 	
-	<h3>Build Triggered on 22 Feb 2023!!!</h3>
+	<h3>Build Triggered on 24 Oct 2023!!!</h3>
 
 
 <%
