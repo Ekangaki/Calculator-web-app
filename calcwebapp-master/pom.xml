@@ -54,6 +54,11 @@
 				</executions>
 			</plugin>
 			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>3.3.2</version>
+			</plugin>
+			<plugin>
 				<artifactId>maven-pmd-plugin</artifactId>
 				<configuration>
 					<includeTests>true</includeTests>
@@ -74,16 +79,13 @@
 					</execution>
 				</executions>
 			</plugin>
-			
-			     <plugin>
+			<plugin>
 				<groupId>org.sonarsource.scanner.maven</groupId>
 				<artifactId>sonar-maven-plugin</artifactId>
 				<version>3.7.0.1746</version>
-			      </plugin>
+			</plugin>
 		</plugins>
 
 		<finalName>calcwebapp</finalName>
 	</build>
-
-
 </project>
