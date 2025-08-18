@@ -17,7 +17,7 @@
 
         <!-- Simplified SonarQube properties -->
         <sonar.host.url>http://44.212.36.245:9000/</sonar.host.url>
-        <sonar.login>squ_61ba957c4d2d8dd4aca83970ddca555ef2b09bd6</sonar.login>
+        <sonar.login>YOUR_SONAR_TOKEN_HERE</sonar.login>
         <sonar.password></sonar.password> <!-- leave empty when using token -->
 
         <!-- Compiled classes directory required for Sonar -->
